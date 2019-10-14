@@ -18,8 +18,8 @@
                     <th class="table-title">序号</th>
                     <th class="table-type">所属项目</th>
                     <th class="table-type">DebugTalk</th>
-                    <th class="table-date am-hide-sm-only">创建时间</th>
-                    <th class="table-date am-hide-sm-only">更新时间</th>
+                    <th class="table-type">创建时间</th>
+                    <th class="table-type">更新时间</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -30,8 +30,8 @@
                         <td>{{ forloop.counter }}</td>
                         <td style="color: cadetblue">{{ foo.belong_project.project_name }}</td>
                         <td><a href="/api/debugtalk/{{ foo.id }}/">debugtalk.py</a></td>
-                        <td class="am-hide-sm-only">{{ foo.create_time }}</td>
-                        <td class="am-hide-sm-only">{{ foo.update_time }}</td>
+                        <td>{{ foo.create_time }}</td>
+                        <td>{{ foo.update_time }}</td>
                     </tr>
                 {% endfor %}
                 </tbody>

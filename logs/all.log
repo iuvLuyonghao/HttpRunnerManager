@@ -1003,3 +1003,1497 @@ ValueError: invalid literal for int() with base 10: '����_quant_login_out(�����
 2018-07-02 15:03:20,152 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 22513
 2018-07-02 15:03:44,373 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 253
 2018-07-02 15:03:46,343 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 27662
+2019-09-24 11:47:37,783 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 11:47:37,784 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2365
+2019-09-24 11:48:26,818 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 11:48:26,819 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2365
+2019-09-24 11:50:58,691 [django.request:228] [log:log_response] [WARNING]- Not Found: //api/register/
+2019-09-24 11:50:58,692 [django.server:124] [basehttp:log_message] [WARNING]- "GET //api/register/ HTTP/1.1" 404 2425
+2019-09-24 13:26:36,537 [django.request:228] [log:log_response] [WARNING]- Not Found: //api/register/
+2019-09-24 13:26:36,537 [django.server:124] [basehttp:log_message] [WARNING]- "GET //api/register/ HTTP/1.1" 404 2425
+2019-09-24 13:34:29,492 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-09-24 17:35:53,523 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-09-24 17:42:23,416 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 17:42:23,416 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-24 17:42:24,323 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:42:24,364 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:42:40,063 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+2019-09-24 17:42:40,107 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2019-09-24 17:42:40,175 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1838
+2019-09-24 17:42:40,255 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+2019-09-24 17:42:40,256 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2019-09-24 17:42:40,258 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+2019-09-24 17:42:40,311 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2019-09-24 17:42:40,366 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2019-09-24 17:42:40,366 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2019-09-24 17:43:55,819 [django.request:228] [log:log_response] [WARNING]- Not Found: //api/register/
+2019-09-24 17:43:55,819 [django.server:124] [basehttp:log_message] [WARNING]- "GET //api/register/ HTTP/1.1" 404 2429
+2019-09-24 17:44:02,220 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-09-24 17:44:02,339 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-09-24 17:44:02,353 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-09-24 17:44:02,355 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-09-24 17:44:02,356 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-09-24 17:44:02,358 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-09-24 17:44:02,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-09-24 17:44:02,623 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-09-24 17:44:02,636 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-09-24 17:44:06,889 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-09-24 17:44:07,489 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:44:07,552 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:44:39,672 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/register/ HTTP/1.1" 200 33
+2019-09-24 17:44:39,707 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-24 17:44:39,755 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-09-24 17:44:39,773 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-09-24 17:44:39,822 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-09-24 17:44:54,902 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-09-24 17:44:54,969 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18315
+2019-09-24 17:44:55,096 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 17:44:55,097 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 17:44:55,098 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 17:44:55,102 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 17:45:11,258 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17492
+2019-09-24 17:46:00,453 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2019-09-24 17:46:00,518 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 17:46:05,777 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 17:46:05,879 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 17:46:05,892 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 17:46:05,899 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 17:46:05,900 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 17:46:06,473 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:46:06,520 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:46:27,800 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 17:46:27,898 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 17:46:27,912 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 17:46:27,914 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 17:46:27,915 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 17:46:28,836 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:46:28,888 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:51:25,892 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 17:51:26,692 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:51:26,739 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:51:26,977 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 17:51:27,348 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:51:27,400 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:51:44,644 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2019-09-24 17:51:44,693 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1838
+2019-09-24 17:54:12,433 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1970
+2019-09-24 17:54:13,139 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2019-09-24 17:59:38,687 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 17:59:39,672 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:59:39,743 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:59:43,464 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1970
+2019-09-24 17:59:43,955 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:59:44,015 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:59:45,660 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1970
+2019-09-24 17:59:45,831 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:59:45,888 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:59:50,104 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1970
+2019-09-24 17:59:50,169 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+2019-09-24 17:59:50,182 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2019-09-24 17:59:50,183 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+2019-09-24 17:59:50,288 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2019-09-24 17:59:50,619 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2019-09-24 17:59:50,706 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2019-09-24 17:59:51,148 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2019-09-24 17:59:51,676 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 17:59:51,737 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 17:59:58,436 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2019-09-24 17:59:58,524 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8158
+2019-09-24 17:59:58,634 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2019-09-24 17:59:58,686 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2019-09-24 17:59:58,688 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2019-09-24 18:00:23,072 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/moduleinfo/ HTTP/1.1" 200 4000
+2019-09-24 18:00:23,192 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+2019-09-24 18:00:23,223 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+2019-09-24 18:00:23,228 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2019-09-24 18:00:23,230 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+2019-09-24 18:00:23,232 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+2019-09-24 18:00:23,233 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+2019-09-24 18:00:23,257 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+2019-09-24 18:00:23,298 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+2019-09-24 18:00:23,328 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2019-09-24 18:00:24,596 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2019-09-24 18:00:25,150 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+2019-09-24 18:00:25,545 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2019-09-24 18:00:28,469 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8158
+2019-09-24 18:00:34,924 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 18:00:35,018 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:00:35,027 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:00:35,032 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:00:35,033 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:00:36,316 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:00:36,370 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:00:43,444 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 18:00:43,570 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:00:43,582 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:00:43,589 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:00:43,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:00:44,754 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:00:44,806 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:03:02,875 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8158
+2019-09-24 18:03:03,366 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:03:03,424 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:03:04,841 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-09-24 18:03:04,989 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:03:05,040 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:03:05,042 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:03:05,044 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:03:06,225 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:03:06,284 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:12,845 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-09-24 18:09:12,963 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:09:12,976 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:09:12,984 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:09:12,985 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:09:14,187 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:09:14,240 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:19,425 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-09-24 18:09:20,126 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:09:20,185 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:21,749 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-09-24 18:09:22,007 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:09:22,091 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:24,356 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-09-24 18:09:24,457 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:09:24,468 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:09:24,469 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:09:24,471 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:09:24,956 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:09:25,015 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:29,855 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/log_out/ HTTP/1.1" 302 0
+2019-09-24 18:09:30,027 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-24 18:09:32,286 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-24 18:09:32,390 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:09:32,443 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:35,110 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-24 18:09:35,222 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:09:35,283 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:09:42,529 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-09-24 18:09:42,618 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-24 18:09:44,174 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-09-24 18:09:44,175 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-09-24 18:09:45,791 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-09-24 18:09:45,791 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-09-24 18:09:57,543 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-09-24 18:11:27,737 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17494
+2019-09-24 18:11:29,538 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-09-24 18:40:19,907 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/project_list/1/
+Traceback (most recent call last):
+  File "/usr/local/python36/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/HttpRunnerManager/HttpRunnerManager-master/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/usr/local/HttpRunnerManager/HttpRunnerManager-master/ApiManager/views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "/usr/local/HttpRunnerManager/HttpRunnerManager-master/ApiManager/views.py", line 315, in project_list
+    return render_to_response('project_list.html', manage_info)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/shortcuts.py", line 27, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: project_list.html
+2019-09-24 18:40:19,952 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/project_list/1/ HTTP/1.1" 500 96453
+2019-09-24 18:40:20,862 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:40:20,924 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:43:54,603 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29329
+2019-09-24 18:43:54,700 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:43:54,714 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:43:54,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:43:54,717 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:43:55,932 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:43:55,979 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:43:59,596 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29329
+2019-09-24 18:43:59,697 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:43:59,708 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:43:59,711 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:43:59,714 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:44:00,287 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:44:00,344 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:45:42,974 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-24 18:45:43,086 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-24 18:45:43,099 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-24 18:45:43,100 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-24 18:45:43,107 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-24 18:45:44,427 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:45:44,504 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:45:46,982 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-24 18:45:47,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:45:47,965 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:45:48,092 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-24 18:45:48,327 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:45:48,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:45:54,165 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-24 18:52:00,271 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-24 18:52:00,907 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:52:00,960 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:52:01,127 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-24 18:52:01,341 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-24 18:52:01,393 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-24 18:52:28,817 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13637
+2019-09-24 18:52:33,064 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25511
+2019-09-24 18:52:36,436 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 21935
+2019-09-24 18:52:36,603 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-24 18:52:38,643 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24542
+2019-09-24 18:52:41,159 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 19241
+2019-09-24 18:52:41,333 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-24 18:52:43,808 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 23014
+2019-09-24 18:52:45,729 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16264
+2019-09-24 18:52:50,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-24 18:52:54,505 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-24 18:53:10,370 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-24 19:01:56,741 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 19:01:56,742 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-24 19:04:29,223 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 19:04:29,223 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2368
+2019-09-24 20:01:59,334 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-24 20:01:59,334 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-24 21:06:09,776 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 21:06:09,777 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2373
+2019-09-24 21:49:58,683 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 21:49:58,684 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 01:59:31,498 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 01:59:31,499 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 02:42:43,325 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 02:42:43,326 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-25 05:31:30,884 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 05:31:30,885 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 06:06:39,206 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-25 06:06:39,206 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-25 09:36:39,889 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+2019-09-25 09:36:39,916 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2019-09-25 09:36:39,954 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1838
+2019-09-25 09:36:40,183 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+2019-09-25 09:36:40,185 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+2019-09-25 09:36:40,187 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2019-09-25 09:36:40,291 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2019-09-25 09:36:40,664 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2019-09-25 09:36:40,665 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2019-09-25 09:36:40,669 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2019-09-25 09:36:41,124 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 09:36:41,145 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 10:48:17,764 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/moduleinfo/ HTTP/1.1" 302 0
+2019-09-25 10:48:17,819 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ApiManager/moduleinfo/ HTTP/1.1" 200 1882
+2019-09-25 10:48:17,958 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+2019-09-25 10:48:17,986 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2019-09-25 10:48:17,997 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+2019-09-25 10:48:18,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2019-09-25 10:48:18,913 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2019-09-25 10:48:18,916 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2019-09-25 10:48:29,362 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ApiManager/moduleinfo/ HTTP/1.1" 302 0
+2019-09-25 10:48:29,428 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/moduleinfo/ HTTP/1.1" 200 4000
+2019-09-25 10:48:29,539 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+2019-09-25 10:48:29,545 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2019-09-25 10:48:29,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+2019-09-25 10:48:29,549 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+2019-09-25 10:48:29,551 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+2019-09-25 10:48:29,567 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+2019-09-25 10:48:29,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+2019-09-25 10:48:29,617 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+2019-09-25 10:48:29,618 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+2019-09-25 10:48:29,662 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2019-09-25 10:48:30,743 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2019-09-25 10:48:31,913 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2019-09-25 10:48:32,329 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2019-09-25 11:10:29,750 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 302 0
+2019-09-25 11:10:29,775 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 11:10:29,845 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-09-25 11:10:29,849 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-09-25 11:10:29,906 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-09-25 11:10:29,910 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-09-25 11:10:30,409 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 11:10:30,454 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 11:10:45,206 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 11:10:45,712 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 11:10:45,800 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 11:14:17,791 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 11:14:18,309 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 11:14:18,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 11:15:02,493 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 11:15:03,017 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 11:15:03,077 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 11:15:03,628 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 11:15:03,765 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 11:15:03,830 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:46:14,562 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/moduleinfo/ HTTP/1.1" 200 4000
+2019-09-25 12:46:14,637 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2019-09-25 12:46:15,200 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:46:15,242 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:46:16,466 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/moduleinfo/ HTTP/1.1" 200 4000
+2019-09-25 12:46:16,539 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2019-09-25 12:46:16,723 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:46:16,777 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:46:18,629 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:46:19,473 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:46:19,551 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:46:49,672 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:46:50,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:46:50,171 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:46:51,599 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:46:51,753 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:46:51,805 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:46:52,812 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:46:52,931 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:46:52,976 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:47:56,149 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-09-25 12:47:56,222 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-25 12:47:56,300 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-25 12:47:56,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-25 12:47:56,322 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-25 12:47:56,323 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-25 12:48:05,365 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13637
+2019-09-25 12:48:11,988 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 21935
+2019-09-25 12:48:12,227 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 12:48:17,235 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 12:48:20,677 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 12:57:11,153 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 302 0
+2019-09-25 12:57:11,168 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:57:11,208 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-09-25 12:57:11,210 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-09-25 12:57:11,227 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-09-25 12:57:11,294 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-09-25 12:57:11,331 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 12:57:11,358 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 12:57:15,757 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-09-25 12:57:15,779 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-09-25 12:57:15,794 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-09-25 12:57:15,795 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-09-25 12:57:15,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-09-25 12:57:15,798 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-09-25 12:57:15,801 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-09-25 12:57:15,837 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-09-25 12:57:48,723 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/register/ HTTP/1.1" 200 33
+2019-09-25 12:57:48,754 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:57:53,448 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:57:54,938 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:58:04,892 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2019-09-25 12:58:09,886 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-09-25 12:58:09,948 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18311
+2019-09-25 12:58:10,016 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-09-25 12:58:10,019 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-09-25 12:58:10,021 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-09-25 12:58:10,023 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-09-25 12:58:39,594 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29299
+2019-09-25 12:58:42,926 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17488
+2019-09-25 12:58:45,364 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13631
+2019-09-25 12:58:48,217 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25505
+2019-09-25 12:58:50,799 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 21929
+2019-09-25 12:58:50,921 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 12:59:04,251 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14385
+2019-09-25 12:59:08,035 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16258
+2019-09-25 12:59:16,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16258
+2019-09-25 12:59:18,397 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 18989
+2019-09-25 12:59:28,379 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_task/ HTTP/1.1" 200 21
+2019-09-25 13:02:55,939 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8158
+2019-09-25 13:02:56,001 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2019-09-25 13:02:56,051 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2019-09-25 13:02:56,053 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2019-09-25 13:35:54,066 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24530
+2019-09-25 13:36:00,727 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29299
+2019-09-25 13:37:10,743 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25511
+2019-09-25 13:37:13,010 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13637
+2019-09-25 13:37:14,512 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13637
+2019-09-25 13:37:18,068 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/1/ HTTP/1.1" 200 2640
+2019-09-25 13:37:32,329 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-25 13:37:44,568 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 13:37:46,986 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25511
+2019-09-25 13:37:49,516 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16163
+2019-09-25 13:38:10,926 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2019-09-25 13:38:10,996 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-09-25 13:38:14,622 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-09-25 13:38:27,616 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-09-25 13:38:32,021 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 13:38:35,697 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 13:38:42,585 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 13:38:48,544 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2019-09-25 13:38:51,542 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 13:38:51,547 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 13:39:21,464 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2019-09-25 13:39:23,337 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2019-09-25 13:39:23,412 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-09-25 13:39:23,745 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 13:39:28,026 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-09-25 13:39:28,300 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 13:39:33,982 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 59923
+2019-09-25 13:42:39,500 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 59923
+2019-09-25 13:42:40,221 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 13:42:40,274 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 13:42:43,581 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 13:42:43,818 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 13:42:45,079 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 13:42:45,342 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 13:42:45,400 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 13:42:45,919 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 13:42:46,170 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 13:42:46,226 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 14:28:25,834 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:28:25,835 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 14:34:03,184 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:34:03,185 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 14:38:41,028 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:38:41,029 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 14:38:44,505 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:38:44,506 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 14:43:00,446 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-25 14:43:01,319 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 14:43:01,362 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 14:43:12,344 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-25 14:43:23,458 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-09-25 14:43:46,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 19241
+2019-09-25 14:43:46,683 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 14:43:51,107 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24542
+2019-09-25 14:43:57,544 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 23014
+2019-09-25 14:43:59,354 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16264
+2019-09-25 14:44:01,076 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 18995
+2019-09-25 14:44:08,801 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:44:19,114 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:44:22,229 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-09-25 14:44:22,673 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 14:44:24,432 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/1/ HTTP/1.1" 200 36243
+2019-09-25 14:44:32,769 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-09-25 14:44:33,024 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 14:44:36,808 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 59923
+2019-09-25 14:44:41,442 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 14:44:43,969 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-25 14:44:53,706 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:45:00,180 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16163
+2019-09-25 14:45:01,924 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-09-25 14:45:04,140 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-09-25 14:45:04,358 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-09-25 14:45:11,789 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-09-25 14:45:17,820 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-09-25 14:45:28,086 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:45:30,734 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:45:40,724 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:45:41,317 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 14:45:41,360 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 14:45:45,084 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:45:45,299 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 14:45:45,342 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 14:45:49,365 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-09-25 14:45:49,366 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-09-25 14:45:51,608 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-09-25 14:45:51,609 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-09-25 14:45:52,842 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 14:45:53,052 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 14:45:53,098 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 14:55:25,303 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:55:25,304 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 15:15:17,080 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 15:47:37,979 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 15:47:37,979 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 15:47:38,447 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 15:47:38,448 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 16:14:02,094 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-25 16:14:02,094 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-25 18:51:16,321 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 18:51:16,322 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-25 18:56:57,325 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-09-25 18:56:58,053 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-25 18:56:58,150 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-25 19:46:22,752 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 19:46:22,752 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 02:16:35,798 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-26 02:16:35,799 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-26 08:03:31,734 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 08:03:31,734 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-26 08:20:12,260 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 08:20:12,261 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 08:23:10,841 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03¢þ¤ìKH²\x03\\©´Ù\x1f\x1b\x1dF\x9b(Ö\x95\x02Ò9&\x02\x1cÞá1è')
+2019-09-26 08:23:10,841 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-09-26 09:43:04,749 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 09:43:04,750 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 10:07:18,358 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-09-26 10:07:18,358 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-09-26 10:07:32,988 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 10:07:32,989 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 10:18:26,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2019-09-26 10:18:26,986 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1838
+2019-09-26 10:18:27,342 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2019-09-26 10:18:27,343 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2019-09-26 10:18:27,343 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2019-09-26 10:18:27,678 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+2019-09-26 10:18:27,777 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-26 10:18:27,824 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+2019-09-26 10:18:27,825 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+2019-09-26 10:19:57,257 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1838
+2019-09-26 10:19:59,870 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-09-26 10:19:59,903 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-09-26 10:19:59,928 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-09-26 10:19:59,964 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-09-26 10:19:59,965 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-09-26 10:19:59,965 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-09-26 10:19:59,966 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-09-26 10:20:01,637 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-09-26 10:20:27,392 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/?nsukey=jLMExmrGlSmid3nfVWo%2BewM4Om33bP9lxrPjn2ohaaJ5ATV%2FiVJI5s5wb7QEOldaoG8PHgXYqUrcXpKUS%2B%2BQedhU1dmyWubW9%2BwlsZUVh%2Blok5txDSRAAMZwwikP6OVPD3s5pFN436smIiquuGJUjXBRq9FOfdIuhlJE6ab4bya2HeB2WS3MmPxCrsqz%2B3f3HmfH3NtKQhA4OV5xNOsoug%3D%3D HTTP/1.1" 200 8108
+2019-09-26 10:20:27,497 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-09-26 10:20:27,535 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-09-26 10:20:27,571 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-09-26 10:20:27,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-09-26 10:20:27,622 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-09-26 10:20:27,654 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-09-26 10:20:27,661 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-09-26 10:20:27,700 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-09-26 10:20:29,109 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-26 10:20:29,934 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-09-26 10:20:58,413 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-09-26 10:20:58,414 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-09-26 10:21:01,884 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/?nsukey=cixeYg1tNogaVCJOX8kBEB4GgMy5H2SqysUVtZQxmRWoohtNG19NCgCchXcOIior9yEBUmpy1Ki7gLPL5EVauc%2BQeDLxbEweh9SbjhALFsNk%2FsSLMHpjGIyzN3qnN%2FqfY4MdbHRpg3FP6E0xE3O3xFc1b8PRMHCRV9USAC%2BZoMLR3EagoIKxVdm1aNg6YAR4%2FtBAXjo8yjr8E2Rdv%2FZUqQ%3D%3D HTTP/1.1" 200 8108
+2019-09-26 10:21:02,275 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-26 10:21:24,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register HTTP/1.1" 301 0
+2019-09-26 10:21:27,324 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/?nsukey=jLMExmrGlSmid3nfVWo%2BewM4Om33bP9lxrPjn2ohaaJ5ATV%2FiVJI5s5wb7QEOldaoG8PHgXYqUrcXpKUS%2B%2BQedhU1dmyWubW9%2BwlsZUVh%2Blok5txDSRAAMZwwikP6OVPD3s5pFN436smIiquuGJUjXBRq9FOfdIuhlJE6ab4bya2HeB2WS3MmPxCrsqz%2B3f3HmfH3NtKQhA4OV5xNOsoug%3D%3D HTTP/1.1" 200 8108
+2019-09-26 10:21:43,127 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-09-26 10:21:44,345 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-09-26 10:21:45,205 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-09-26 10:21:45,791 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-09-26 10:21:56,846 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/?nsukey=Q1w961d8hDpARD8saRhaHBSSqIFA%2Fq62Ycm8IjCHDf%2BaY0Y8gq15kjckU%2BbYT2GMQowPLZ%2FptNmMsTvNhp7%2BLgqtWZ8UgGKkbgPGk4IZSL%2Fv3XJHyg2z2UtlOg57ewwI0e62cNpljwd3hBoKE%2FsfPWy0ervMb2LxLY0JNRJubP%2BAsMdP9ZvFA7Af1RhtZQI87p8Mz7KtH46%2Fh%2BYKYYCENQ%3D%3D HTTP/1.1" 200 8108
+2019-09-26 10:21:57,220 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-09-26 10:23:00,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/?nsukey=Q1w961d8hDpARD8saRhaHBSSqIFA%2Fq62Ycm8IjCHDf%2BaY0Y8gq15kjckU%2BbYT2GMQowPLZ%2FptNmMsTvNhp7%2BLgqtWZ8UgGKkbgPGk4IZSL%2Fv3XJHyg2z2UtlOg57ewwI0e62cNpljwd3hBoKE%2FsfPWy0ervMb2LxLY0JNRJubP%2BAsMdP9ZvFA7Af1RhtZQI87p8Mz7KtH46%2Fh%2BYKYYCENQ%3D%3D HTTP/1.1" 200 8108
+2019-09-26 10:24:01,725 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-09-26 10:24:07,959 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-09-26 10:24:16,390 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-09-26 10:24:23,013 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-09-26 10:51:39,734 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-09-26 10:51:47,622 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-09-26 10:51:47,689 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-09-26 10:51:56,321 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_suite/ HTTP/1.1" 200 17786
+2019-09-26 10:52:03,538 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24542
+2019-09-26 10:52:08,049 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-09-26 11:17:39,688 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 11:17:39,689 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 11:20:43,343 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 11:20:43,343 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-26 11:51:36,215 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-26 11:51:36,215 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-26 12:10:36,297 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 12:10:36,298 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 12:21:53,081 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-26 12:21:53,082 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-26 12:46:02,392 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 12:46:02,393 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 12:58:10,112 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-26 12:58:10,112 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-26 18:27:55,366 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.qq.com/404/search_children.js
+2019-09-26 18:27:55,366 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+2019-09-26 18:28:00,182 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+2019-09-26 18:28:00,183 [django.server:124] [basehttp:log_message] [WARNING]- " PpTi4 " 400 -
+2019-09-26 18:28:00,256 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x01\x00')
+2019-09-26 18:28:00,256 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-09-26 19:00:42,957 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-26 19:00:42,958 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-26 20:36:35,843 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 20:36:35,844 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 20:48:30,199 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 20:48:30,200 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-26 22:26:51,676 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-26 22:26:51,676 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-27 01:43:00,843 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-27 01:43:00,844 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-27 01:47:03,788 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+2019-09-27 01:47:03,789 [django.server:124] [basehttp:log_message] [WARNING]- "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+2019-09-27 04:38:50,941 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 04:38:50,942 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-27 06:40:09,197 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 06:40:09,197 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-27 06:40:46,542 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('SSH-2.0-Go')
+2019-09-27 06:40:46,542 [django.server:124] [basehttp:log_message] [WARNING]- "SSH-2.0-Go" 400 -
+2019-09-27 08:28:32,521 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-27 08:28:32,522 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-27 08:34:53,424 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-27 08:34:53,424 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-27 15:10:14,013 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-27 15:10:14,013 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-27 15:14:14,058 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 15:14:14,058 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-27 16:31:17,425 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 16:31:17,425 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-27 17:02:55,461 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 17:02:55,462 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-27 17:43:36,360 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 17:43:36,361 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-27 18:27:31,095 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 18:27:31,095 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2368
+2019-09-27 18:30:59,741 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-27 18:30:59,742 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-27 21:59:35,759 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 21:59:35,761 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 00:06:15,504 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.qq.com/404/search_children.js
+2019-09-28 00:06:15,504 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+2019-09-28 00:06:20,475 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+2019-09-28 00:06:20,476 [django.server:124] [basehttp:log_message] [WARNING]- " PpTi4 " 400 -
+2019-09-28 00:06:20,499 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x01\x00')
+2019-09-28 00:06:20,499 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-09-28 03:46:05,405 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 03:46:05,405 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 04:30:54,728 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-28 04:30:54,728 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-28 04:55:59,266 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 04:55:59,267 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 06:25:13,691 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 06:25:13,692 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 06:27:36,318 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 06:27:36,319 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 06:54:37,321 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 06:54:37,322 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 07:25:32,275 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 07:25:32,275 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 07:44:59,100 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 07:44:59,101 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 07:58:25,930 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 07:58:25,931 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 12:02:32,607 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 12:02:32,607 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-28 13:22:00,842 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-28 13:22:00,842 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-28 14:35:48,440 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-28 14:35:48,441 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-28 17:30:50,180 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-28 17:30:50,180 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-09-28 19:02:35,537 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 19:02:35,537 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-29 00:30:15,033 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 00:30:15,034 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-29 00:41:49,724 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-29 00:41:49,724 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-29 02:21:44,961 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 02:21:44,961 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-29 06:45:14,702 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-09-29 06:45:14,703 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-09-29 08:51:44,397 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 08:51:44,398 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-29 08:56:01,644 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 08:56:01,645 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-29 09:49:15,954 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 09:49:15,954 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-29 10:45:42,376 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-29 10:45:42,377 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-29 14:40:08,733 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 14:40:08,734 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-29 20:49:14,343 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-29 20:49:14,343 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-29 23:38:02,837 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.qq.com/404/search_children.js
+2019-09-29 23:38:02,838 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+2019-09-29 23:38:07,774 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+2019-09-29 23:38:07,775 [django.server:124] [basehttp:log_message] [WARNING]- " PpTi4 " 400 -
+2019-09-29 23:38:07,804 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x01\x00')
+2019-09-29 23:38:07,804 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-09-30 05:28:33,500 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x9cÓ§]\x18l\rµæòS\x8c_I=ÈëÐÿre\rï\x15Q7þA\x7f\x8c\x80t\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\tÀ\x14À')
+2019-09-30 05:28:33,501 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-09-30 05:32:53,096 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03lJ¾\x03\x18+Óë\x0e\x08¥ªopæzòh¿\x84#®0pÂÙsÐäuá\x12\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+2019-09-30 05:32:53,096 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-09-30 06:40:04,886 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 06:40:04,886 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-30 06:52:13,878 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-30 06:52:13,879 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-30 12:25:51,773 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 12:25:51,773 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-09-30 13:45:58,240 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 13:45:58,240 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-30 15:18:53,524 [django.request:228] [log:log_response] [WARNING]- Not Found: /www.baidu.com:443
+2019-09-30 15:18:53,525 [django.server:124] [basehttp:log_message] [WARNING]- "CONNECT www.baidu.com:443 HTTP/1.0" 404 1662
+2019-09-30 15:22:55,095 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 15:22:55,096 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-30 16:53:06,784 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-30 16:53:06,785 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-09-30 16:54:15,125 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 16:54:15,126 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-09-30 17:22:34,381 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-09-30 17:22:34,381 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-01 01:38:15,591 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 01:38:15,591 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-01 02:53:02,406 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-01 02:53:02,406 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-01 04:20:37,995 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 04:20:37,996 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-01 05:54:42,853 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 05:54:42,854 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-01 08:04:43,154 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 08:04:43,154 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-01 08:25:10,441 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-01 08:25:10,441 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-01 10:33:04,168 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 10:33:04,168 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-01 13:01:07,350 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-01 13:01:07,350 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-01 17:22:40,790 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-01 17:22:40,791 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-01 21:10:23,312 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+2019-10-01 21:10:23,312 [django.server:124] [basehttp:log_message] [WARNING]- "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+2019-10-01 21:28:12,360 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x04\x01\x00\x19^d´h\x00')
+2019-10-01 21:28:12,360 [django.server:124] [basehttp:log_message] [WARNING]- " ^d´h " 400 -
+2019-10-01 21:28:12,361 [django.server:70] [basehttp:handle_error] [INFO]- - Broken pipe from ('163.172.106.112', 45662)
+
+2019-10-01 21:28:17,702 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 21:28:17,703 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-01 21:29:12,633 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x01\x00')
+2019-10-01 21:29:12,633 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-01 21:29:12,634 [django.server:70] [basehttp:handle_error] [INFO]- - Broken pipe from ('163.172.106.112', 49470)
+
+2019-10-01 21:43:40,404 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-10-01 21:43:40,405 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-01 21:57:36,652 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 21:57:36,652 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-01 23:03:22,151 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-01 23:03:22,152 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-01 23:58:13,360 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 23:58:13,361 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2364
+2019-10-01 23:58:14,022 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-01 23:58:14,463 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-02 03:33:46,174 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 03:33:46,175 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-02 03:50:30,807 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-02 03:50:30,807 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-02 04:43:58,866 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 04:43:58,866 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-02 08:50:01,914 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 08:50:01,914 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-02 09:08:03,934 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-02 09:08:03,934 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-02 10:08:30,554 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03Uo\x90¤\x03îöcK')
+2019-10-02 10:08:30,554 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-02 14:39:48,812 [django.request:228] [log:log_response] [WARNING]- Not Found: /192.30.255.113
+2019-10-02 14:39:48,813 [django.server:124] [basehttp:log_message] [WARNING]- "CONNECT 192.30.255.113 HTTP/1.0" 404 1654
+2019-10-02 14:42:48,234 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-02 14:42:48,234 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-10-02 16:18:15,540 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-02 16:18:15,541 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-02 18:09:12,696 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 18:09:12,696 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2368
+2019-10-02 19:11:54,052 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-02 19:11:54,053 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-02 19:51:31,237 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-02 19:51:31,238 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-02 19:51:34,909 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 19:51:34,910 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2373
+2019-10-02 22:09:43,614 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-02 22:09:43,614 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-02 22:11:24,120 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:11:24,120 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-02 22:12:42,427 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:12:42,428 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-02 22:15:07,533 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:15:07,533 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-02 22:41:34,029 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:41:34,030 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-02 22:44:13,602 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-02 22:44:13,602 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-02 23:59:23,773 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 23:59:23,774 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-03 01:53:26,782 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 01:53:26,783 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-03 05:15:57,286 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-03 05:15:57,286 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-03 07:28:13,951 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 07:28:13,951 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-03 07:43:42,954 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 07:43:42,954 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-03 09:22:28,150 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 09:22:28,151 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-03 09:22:45,774 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 09:22:45,774 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-03 09:25:12,683 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 09:25:12,684 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-03 10:01:33,697 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 10:01:33,697 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-03 12:21:29,396 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-03 12:21:29,396 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-03 12:29:26,641 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 12:29:26,641 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-03 13:59:44,480 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 13:59:44,480 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-03 15:23:37,557 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-03 15:23:37,558 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-03 15:31:06,774 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-03 15:31:06,774 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-03 17:52:21,543 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-03 17:52:21,544 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-03 17:52:22,177 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-03 17:52:22,178 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-03 19:29:12,800 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-03 19:29:12,801 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-03 22:32:00,877 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 22:32:00,877 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 01:25:27,754 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-04 01:25:27,755 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-04 01:40:40,800 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 01:40:40,801 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2364
+2019-10-04 02:50:12,144 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-04 02:50:12,144 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-04 02:50:12,774 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-04 02:50:12,774 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-04 03:46:32,875 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 03:46:32,876 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 04:05:04,729 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:05:04,730 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 04:19:23,561 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:19:23,562 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 04:23:35,135 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:23:35,136 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 04:40:31,532 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:40:31,533 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 06:40:19,418 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 06:40:19,419 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-04 06:51:19,968 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 06:51:19,968 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-04 07:24:08,709 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 07:24:08,710 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-04 10:22:54,891 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 10:22:54,892 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 11:16:37,760 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 11:16:37,760 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 11:16:38,474 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 11:16:38,474 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 11:29:38,367 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-04 11:29:38,368 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-04 11:51:42,375 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 11:51:42,376 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-04 12:19:00,937 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/112.124.42.80:63435/
+2019-10-04 12:19:00,938 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1694
+2019-10-04 14:24:55,507 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00u\x01\x00\x00q\x03\x03[åæHâ¼#¸[{d½fÒÏðm='V¦S!±1\x9cb\x03=f\x1a#\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+2019-10-04 14:24:55,507 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-04 21:24:31,228 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-04 21:24:31,229 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-04 21:31:54,284 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-04 21:31:54,284 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-04 22:04:43,022 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 22:04:43,022 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2368
+2019-10-04 22:08:57,571 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-04 22:08:57,571 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-04 22:11:39,157 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 22:11:39,158 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 22:26:08,237 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 22:26:08,237 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-04 22:53:25,668 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 22:53:25,669 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-04 22:53:25,673 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 22:53:25,673 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-05 00:29:15,587 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 00:29:15,588 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-05 01:09:01,363 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 01:09:01,364 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-05 02:05:08,568 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 02:05:08,569 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-05 02:52:30,117 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 02:52:30,118 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-05 05:31:06,208 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 05:31:06,209 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-05 05:53:56,183 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 05:53:56,184 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-05 06:28:47,395 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-05 06:28:47,396 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-05 07:30:55,578 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-05 07:30:55,579 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-05 08:06:10,765 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 08:06:10,765 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-05 08:57:05,651 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 08:57:05,652 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-05 09:29:17,206 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 09:29:17,206 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2364
+2019-10-05 09:29:18,109 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-05 09:29:18,562 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-05 17:01:20,625 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 17:01:20,626 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-05 17:35:21,568 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-05 17:35:21,569 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-05 19:09:16,540 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 19:09:16,540 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 02:24:37,519 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 02:24:37,520 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-06 03:37:02,811 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-06 03:37:02,812 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-06 03:49:11,153 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 03:49:11,153 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-06 05:54:09,441 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-06 05:54:09,441 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-06 06:49:26,635 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 06:49:26,635 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-06 07:32:16,594 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 07:32:16,594 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 07:35:06,894 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 07:35:06,894 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 08:05:05,674 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 08:05:05,674 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-06 08:53:58,524 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-06 08:53:58,525 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-06 09:39:15,927 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-06 09:39:15,927 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-06 09:43:35,862 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-06 09:43:35,863 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-06 11:43:55,512 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-06 11:43:55,512 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-06 13:46:02,925 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-06 13:46:02,925 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-06 14:09:42,652 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 14:09:42,653 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 15:09:54,417 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-06 15:09:54,417 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-06 15:47:52,337 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 15:47:52,337 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-06 16:27:50,685 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+2019-10-06 16:27:50,685 [django.server:124] [basehttp:log_message] [WARNING]- "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+2019-10-06 17:12:22,543 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 17:12:22,544 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 17:12:24,780 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 17:12:24,780 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 18:09:07,141 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 18:09:07,142 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-06 18:21:21,510 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-06 18:21:21,511 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-06 19:33:05,211 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-06 19:33:05,211 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-06 21:14:14,446 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 21:14:14,447 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-06 22:45:43,202 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-06 22:45:43,202 [django.server:124] [basehttp:log_message] [WARNING]- "GET /Pages/login.htm HTTP/1.1" 404 2428
+2019-10-06 22:54:10,948 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-06 22:54:10,948 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-06 23:53:16,150 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-06 23:53:16,151 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-07 03:19:12,609 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-07 03:19:12,609 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-07 03:52:54,930 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 03:52:54,930 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 04:01:08,748 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-07 04:01:08,749 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-07 09:57:29,605 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-07 09:57:29,606 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-07 10:33:59,872 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 10:33:59,873 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 10:34:34,658 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-07 10:34:34,659 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-10-07 10:34:37,692 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-10-07 10:34:37,692 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-07 11:45:45,682 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:45:45,682 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 11:47:18,403 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:47:18,404 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 11:48:20,282 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:48:20,282 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 11:48:25,307 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:48:25,307 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 14:40:03,484 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-07 14:40:03,484 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-07 15:30:05,266 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-07 15:30:05,267 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-07 15:30:05,749 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-07 15:30:05,749 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-07 17:22:35,049 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:22:35,049 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 17:22:36,386 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:22:36,386 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 17:41:41,942 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:41:41,943 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 17:41:42,967 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:41:42,967 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-07 19:58:37,389 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-07 19:58:37,390 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-07 22:01:37,514 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-07 22:01:37,514 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 03:27:34,673 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 03:27:34,673 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 04:13:23,554 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 04:13:23,555 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-08 06:01:13,173 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-08 06:01:13,173 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-08 06:22:11,759 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 06:22:11,760 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2364
+2019-10-08 06:26:18,666 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03ä&Uº«d\x9d·\x13\x80\x18O\x99ÿó2·²µ\x89Xç\x8a\x0fnÊ\x02nå¥bÅ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+2019-10-08 06:26:18,666 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-08 08:55:23,650 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 08:55:23,650 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-08 10:18:36,038 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 10:18:36,039 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 12:59:42,813 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 12:59:42,813 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2368
+2019-10-08 14:24:39,495 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 14:24:39,495 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 14:56:35,667 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 14:56:35,667 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2373
+2019-10-08 15:11:06,313 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 15:11:06,313 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 16:04:32,139 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-08 16:04:32,139 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-08 16:06:14,988 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 16:06:14,988 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 16:57:36,971 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 16:57:36,972 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-08 17:44:09,606 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 17:44:09,606 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-08 19:57:23,494 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-08 19:57:23,495 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-10-08 19:57:26,398 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-10-08 19:57:26,398 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-08 22:10:56,137 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 22:10:56,137 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-08 23:34:03,645 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-08 23:34:03,645 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 02:04:48,064 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 02:04:48,064 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 02:13:26,710 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-09 02:13:26,710 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-09 03:11:15,766 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 03:11:15,767 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 04:04:22,924 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 04:04:22,925 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 04:08:15,739 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 04:08:15,739 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 05:16:05,302 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 05:16:05,302 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 05:16:06,926 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 05:16:06,927 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 05:16:07,382 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 05:16:07,382 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 07:22:10,965 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 07:22:10,966 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 12:17:32,098 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-09 12:17:32,098 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-09 13:33:10,669 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-09 13:33:10,670 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-09 13:33:13,299 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-09 13:33:13,299 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-10-09 13:33:13,452 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-09 13:33:13,452 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-09 13:33:16,642 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-10-09 13:33:16,642 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-09 13:43:36,441 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 13:43:36,442 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 14:55:45,278 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 14:55:45,278 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-09 15:27:48,480 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 15:27:48,480 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 15:27:49,035 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 15:27:49,035 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 15:27:55,250 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 15:27:55,251 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 15:27:55,752 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 15:27:55,752 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 15:27:58,155 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 15:27:58,155 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 15:27:58,613 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 15:27:58,614 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 16:00:15,765 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 16:00:15,765 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 16:20:32,432 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 16:20:32,433 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 16:21:28,673 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 16:21:28,673 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-09 18:17:12,377 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ò\x01\x00\x00Î\x03\x03X§í1úÝ-ê\x1ax\x08\x06¬ùyü´?¸T\x87w»"îVÇ»j«Øµ\x00\x00bÀ0À,À/À+\x00\x9f\x00\x9eÀ2À.À1À-\x00¥\x00¡\x00¤\x00')
+2019-10-09 18:17:12,378 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-09 18:21:24,335 [django.request:228] [log:log_response] [WARNING]- Not Found: /admin/assets/js/views/login.js
+2019-10-09 18:21:24,335 [django.server:124] [basehttp:log_message] [WARNING]- "GET /admin/assets/js/views/login.js HTTP/1.1" 404 5999
+2019-10-09 19:40:33,840 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 19:40:33,841 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-09 19:52:02,425 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 19:52:02,425 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-09 21:38:44,939 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 21:38:44,939 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 22:17:02,262 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 22:17:02,262 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-09 22:17:23,912 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-09 22:17:23,912 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-09 23:21:58,695 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-09 23:21:58,695 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-10 00:47:28,707 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-10 00:47:28,708 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-10 01:11:25,537 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 01:11:25,537 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-10 05:59:50,705 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 05:59:50,705 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-10 08:22:29,627 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-10 08:22:29,628 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-10 13:39:44,254 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 13:39:44,255 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-10 13:39:49,788 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('l\x00')
+2019-10-10 13:39:49,788 [django.server:124] [basehttp:log_message] [WARNING]- "l          " 400 -
+2019-10-10 13:39:50,033 [django.request:228] [log:log_response] [WARNING]- Not Found: /nice ports,/Trinity.txt.bak
+2019-10-10 13:39:50,034 [django.server:124] [basehttp:log_message] [WARNING]- "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2466
+2019-10-10 13:39:50,540 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+2019-10-10 13:39:50,540 [django.server:124] [basehttp:log_message] [WARNING]- "  " 400 -
+2019-10-10 13:39:56,014 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+2019-10-10 13:39:56,014 [django.server:124] [basehttp:log_message] [WARNING]- "   root " 400 -
+2019-10-10 13:39:56,243 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 13:39:56,244 [django.server:124] [basehttp:log_message] [WARNING]- "OPTIONS / HTTP/1.0" 404 2369
+2019-10-10 13:39:57,297 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('RTSP/1.0')
+2019-10-10 13:39:57,297 [django.server:124] [basehttp:log_message] [WARNING]- "OPTIONS / RTSP/1.0" 400 -
+2019-10-10 13:40:02,763 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-10-10 13:40:02,763 [django.server:124] [basehttp:log_message] [WARNING]- "  (rþ          |                    " 400 -
+2019-10-10 13:40:07,994 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x00')
+2019-10-10 13:40:07,994 [django.server:124] [basehttp:log_message] [WARNING]- "          versionbind   " 400 -
+2019-10-10 13:40:13,226 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x00')
+2019-10-10 13:40:13,226 [django.server:124] [basehttp:log_message] [WARNING]- "            " 400 -
+2019-10-10 13:40:13,458 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('HELP')
+2019-10-10 13:40:13,459 [django.server:124] [basehttp:log_message] [WARNING]- "HELP" 400 -
+2019-10-10 13:40:14,478 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+2019-10-10 13:40:14,479 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-10 13:40:15,538 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x00/\x00')
+2019-10-10 13:40:15,538 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-10 13:40:16,009 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+2019-10-10 13:40:16,010 [django.server:124] [basehttp:log_message] [WARNING]- "   qjn0k¡¢" 400 -
+2019-10-10 13:40:22,496 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+2019-10-10 13:40:22,497 [django.server:124] [basehttp:log_message] [WARNING]- "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+2019-10-10 13:40:22,727 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x01default')
+2019-10-10 13:40:22,727 [django.server:124] [basehttp:log_message] [WARNING]- "default" 400 -
+2019-10-10 13:40:23,185 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+2019-10-10 13:40:23,185 [django.server:124] [basehttp:log_message] [WARNING]- "0   -c   $ " 400 -
+2019-10-10 13:40:28,653 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('0')
+2019-10-10 13:40:28,654 [django.server:124] [basehttp:log_message] [WARNING]- "0`  " 400 -
+2019-10-10 13:40:29,490 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('SIP/2.0')
+2019-10-10 13:40:29,491 [django.server:124] [basehttp:log_message] [WARNING]- "OPTIONS sip:nm SIP/2.0" 400 -
+2019-10-10 13:40:34,970 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+2019-10-10 13:40:34,971 [django.server:124] [basehttp:log_message] [WARNING]- "TNMP   TNME   " 400 -
+2019-10-10 13:40:40,215 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+2019-10-10 13:40:40,215 [django.server:124] [basehttp:log_message] [WARNING]- "  à     " 400 -
+2019-10-10 16:03:04,940 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-10 16:03:04,940 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-10 18:27:50,184 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-10 18:27:50,184 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-10 19:18:37,920 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 19:18:37,920 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-10 21:39:27,703 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.123cha.com/
+2019-10-10 21:39:27,704 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.123cha.com/ HTTP/1.1" 404 1673
+2019-10-10 21:39:27,715 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/
+2019-10-10 21:39:27,715 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/ HTTP/1.1" 404 1669
+2019-10-10 21:39:35,543 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.minghui.org/
+2019-10-10 21:39:35,543 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.minghui.org/ HTTP/1.1" 404 1677
+2019-10-10 21:39:35,548 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.epochtimes.com/
+2019-10-10 21:39:35,549 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.epochtimes.com/ HTTP/1.1" 404 1689
+2019-10-10 21:39:35,561 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.boxun.com/
+2019-10-10 21:39:35,561 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.boxun.com/ HTTP/1.1" 404 1669
+2019-10-10 21:39:35,564 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.bing.com/
+2019-10-10 21:39:35,564 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.bing.com/ HTTP/1.1" 404 1665
+2019-10-10 21:39:43,036 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.rfa.org/
+2019-10-10 21:39:43,036 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.rfa.org/ HTTP/1.1" 404 1661
+2019-10-10 21:39:43,082 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/wujieliulan.com/
+2019-10-10 21:39:43,083 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://wujieliulan.com/ HTTP/1.1" 404 1677
+2019-10-10 21:39:43,294 [django.request:228] [log:log_response] [WARNING]- Not Found: /www.voanews.com:443
+2019-10-10 21:39:43,295 [django.server:124] [basehttp:log_message] [WARNING]- "CONNECT www.voanews.com:443 HTTP/1.0" 404 1669
+2019-10-10 23:57:36,418 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-10 23:57:36,419 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-11 04:30:38,439 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-11 04:30:38,439 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-11 09:02:38,001 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 09:02:38,002 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-11 09:03:35,634 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 09:03:35,635 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2368
+2019-10-11 09:52:22,767 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('HTTP')
+2019-10-11 09:52:22,767 [django.server:124] [basehttp:log_message] [WARNING]- "GET ../../mnt/custom/ProductDefinition HTTP" 400 -
+2019-10-11 11:00:04,066 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 11:00:04,067 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2364
+2019-10-11 11:00:06,553 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-11 11:00:08,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-11 14:34:54,295 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-11 14:34:54,296 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-11 16:26:21,640 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 16:26:21,641 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-11 18:09:11,455 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:09:11,456 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-11 18:09:11,624 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-11 18:09:11,693 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-11 18:17:33,128 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:17:33,129 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-11 18:17:39,436 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:17:39,436 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-11 18:19:51,738 [django.request:228] [log:log_response] [WARNING]- Not Found: /register
+2019-10-11 18:19:51,739 [django.server:124] [basehttp:log_message] [WARNING]- "GET /register HTTP/1.1" 404 2411
+2019-10-11 18:19:55,532 [django.request:228] [log:log_response] [WARNING]- Not Found: /register/
+2019-10-11 18:19:55,533 [django.server:124] [basehttp:log_message] [WARNING]- "GET /register/ HTTP/1.1" 404 2414
+2019-10-11 18:20:22,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-10-11 18:20:22,750 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-10-11 18:20:22,761 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-10-11 18:20:22,767 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-10-11 18:20:22,768 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-10-11 18:20:22,781 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-10-11 18:20:22,782 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-10-11 18:20:23,182 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-10-11 18:20:23,199 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-11 18:20:42,911 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-11 18:20:42,946 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-11 18:20:43,148 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-11 18:20:43,189 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-11 18:20:48,701 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2019-10-11 18:20:51,025 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-10-11 18:21:14,607 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/register/ HTTP/1.1" 200 48
+2019-10-11 18:21:21,048 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-11 18:21:26,883 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2019-10-11 18:21:33,696 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-11 18:21:33,780 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-10-11 18:21:33,944 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-10-11 18:21:33,946 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-10-11 18:21:33,948 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-10-11 18:21:33,949 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-10-11 18:21:41,981 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-10-11 18:21:54,326 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-10-11 18:21:56,941 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17494
+2019-10-11 18:21:59,121 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-10-11 18:22:03,056 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-10-11 18:22:05,537 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34172
+2019-10-11 18:22:11,979 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24542
+2019-10-11 18:22:23,446 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-10-11 18:22:28,629 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24542
+2019-10-11 20:48:00,997 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 20:48:00,997 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-12 00:38:16,578 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 00:38:16,578 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-12 00:38:17,512 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 00:38:17,513 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-12 02:11:50,109 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-12 02:11:50,110 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-12 02:49:10,735 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-12 02:49:10,735 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-12 06:31:35,290 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x16\x03\x01\x01,\x01\x00\x01(\x03\x03\x0f\x19¬z\x8dyñ¨súÊ')
+2019-10-12 06:31:35,290 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2019-10-12 08:38:04,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-12 08:38:04,256 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 08:38:04,282 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-12 08:38:04,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-12 08:38:04,307 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-12 08:38:04,545 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-12 08:38:04,552 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-12 08:38:04,577 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-12 08:49:37,104 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-12 08:49:37,135 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 08:49:37,190 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-12 08:49:37,194 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-12 08:49:37,206 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-12 08:49:37,343 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-12 08:49:41,695 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-10-12 08:49:41,744 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-10-12 08:49:41,746 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-10-12 08:49:41,765 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-10-12 08:49:41,769 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-10-12 08:49:41,774 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-10-12 08:49:41,780 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-10-12 08:49:41,849 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-10-12 08:49:46,521 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 08:49:55,709 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-12 08:49:55,784 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-10-12 08:49:55,841 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-10-12 08:49:55,843 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-10-12 08:49:55,854 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-10-12 08:49:55,855 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-10-12 08:50:18,090 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-10-12 08:50:27,410 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28128
+2019-10-12 08:50:38,714 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-10-12 08:50:39,068 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 08:50:44,772 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24542
+2019-10-12 08:50:49,355 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24600
+2019-10-12 08:50:49,581 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 08:50:55,888 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 59923
+2019-10-12 08:51:03,458 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 08:52:57,403 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29305
+2019-10-12 08:53:00,449 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17494
+2019-10-12 08:53:33,842 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2019-10-12 08:53:46,344 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2019-10-12 08:53:46,399 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32188
+2019-10-12 08:53:55,161 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 59
+2019-10-12 08:54:04,726 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28391
+2019-10-12 08:54:07,498 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16267
+2019-10-12 08:55:01,738 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2019-10-12 08:55:01,804 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 30868
+2019-10-12 08:55:06,108 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34484
+2019-10-12 08:56:11,092 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2019-10-12 08:56:14,696 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-12 08:56:14,697 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-10-12 08:56:17,240 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-10-12 08:56:17,240 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-12 08:56:22,538 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2019-10-12 08:56:22,613 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27360
+2019-10-12 08:56:22,864 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 08:56:26,754 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 37805
+2019-10-12 08:57:05,046 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 08:57:08,167 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32188
+2019-10-12 08:57:11,506 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16267
+2019-10-12 08:57:42,443 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2019-10-12 08:57:42,510 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 33474
+2019-10-12 08:57:49,549 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34484
+2019-10-12 08:57:51,887 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 48
+2019-10-12 08:57:53,752 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 08:57:53,759 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:00:21,258 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 48
+2019-10-12 09:00:25,630 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2019-10-12 09:00:25,690 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 29849
+2019-10-12 09:00:25,893 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:00:40,404 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 38947
+2019-10-12 09:22:35,795 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-12 09:22:35,795 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-12 09:53:21,559 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24750
+2019-10-12 09:53:24,422 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17494
+2019-10-12 09:53:28,037 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34484
+2019-10-12 09:53:30,930 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 29849
+2019-10-12 09:53:31,151 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:53:32,983 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 19503
+2019-10-12 09:53:33,128 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:53:36,561 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 23277
+2019-10-12 09:53:38,731 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16264
+2019-10-12 09:53:42,006 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-10-12 09:53:44,178 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/report_list/1/ HTTP/1.1" 200 14391
+2019-10-12 09:53:49,111 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 17744
+2019-10-12 09:53:53,295 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 17744
+2019-10-12 09:54:37,160 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/env_set/ HTTP/1.1" 200 21
+2019-10-12 09:54:47,318 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/env_set/ HTTP/1.1" 200 2
+2019-10-12 09:54:47,375 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 19690
+2019-10-12 09:54:52,056 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32326
+2019-10-12 09:55:03,242 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34484
+2019-10-12 09:55:04,890 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 29987
+2019-10-12 09:55:05,077 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:55:06,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 40095
+2019-10-12 09:55:12,776 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 33612
+2019-10-12 09:55:26,096 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 29987
+2019-10-12 09:55:26,349 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:55:32,095 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 40095
+2019-10-12 09:56:14,590 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2019-10-12 09:56:14,650 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 29987
+2019-10-12 09:56:14,887 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:56:19,895 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 39011
+2019-10-12 09:58:06,874 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 09:58:11,022 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14391
+2019-10-12 09:58:12,748 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/report_list/1/ HTTP/1.1" 200 14391
+2019-10-12 09:58:13,705 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/report_list/1/ HTTP/1.1" 200 14391
+2019-10-12 09:58:17,641 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/report_list/1/ HTTP/1.1" 200 14394
+2019-10-12 09:58:20,995 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 33612
+2019-10-12 09:58:33,583 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 39011
+2019-10-12 10:27:11,041 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 40418
+2019-10-12 10:35:24,866 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14082
+2019-10-12 10:35:27,656 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/2/ HTTP/1.1" 200 2640
+2019-10-12 10:35:34,240 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32326
+2019-10-12 10:35:40,183 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/project_list/1/ HTTP/1.1" 200 2
+2019-10-12 10:35:40,243 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-10-12 10:35:43,844 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29342
+2019-10-12 10:38:13,017 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 10:38:13,017 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-12 11:17:46,493 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-12 11:17:46,511 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 11:17:52,653 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2019-10-12 11:17:56,699 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2019-10-12 11:17:56,720 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2019-10-12 11:17:56,738 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2019-10-12 11:17:56,739 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2019-10-12 11:17:56,741 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2019-10-12 11:17:56,745 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2019-10-12 11:17:56,747 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2019-10-12 11:17:56,776 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2019-10-12 11:18:47,919 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/register/ HTTP/1.1" 200 33
+2019-10-12 11:18:47,955 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 11:18:54,212 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-12 11:18:54,272 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18319
+2019-10-12 11:18:54,314 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-10-12 11:18:54,324 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-10-12 11:18:54,328 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-10-12 11:18:54,333 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-10-12 11:19:00,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29344
+2019-10-12 11:19:23,517 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_batch_test/ HTTP/1.1" 200 53891
+2019-10-12 11:19:59,531 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 30672
+2019-10-12 11:20:06,222 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27213
+2019-10-12 11:20:06,367 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 11:20:09,957 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34146
+2019-10-12 11:36:57,850 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 23134
+2019-10-12 11:37:01,174 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24526
+2019-10-12 11:37:03,770 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 19223
+2019-10-12 11:37:03,895 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-12 11:37:09,281 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14393
+2019-10-12 11:37:13,051 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 19692
+2019-10-12 13:48:50,646 [django.request:228] [log:log_response] [WARNING]- Not Found: /api/add_config/ 这是一个拥有图形页面的接口测试项目，我觉得挺适合咱们公司使用的
+2019-10-12 13:48:50,646 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/add_config/%20%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%8B%A5%E6%9C%89%E5%9B%BE%E5%BD%A2%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE%EF%BC%8C%E6%88%91%E8%A7%89%E5%BE%97%E6%8C%BA%E9%80%82%E5%90%88%E5%92%B1%E4%BB%AC%E5%85%AC%E5%8F%B8%E4%BD%BF%E7%94%A8%E7%9A%84 HTTP/1.1" 404 2902
+2019-10-12 13:48:50,982 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-12 13:48:51,008 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-12 13:48:58,240 [django.request:228] [log:log_response] [WARNING]- Not Found: /api/add_config/ 
+2019-10-12 13:48:58,241 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/add_config/%20 HTTP/1.1" 404 2437
+2019-10-12 13:49:16,137 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-12 13:49:16,163 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 13:49:16,287 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-12 13:49:16,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-12 13:49:16,318 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-12 13:49:16,538 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-12 13:49:26,216 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+2019-10-12 13:49:26,217 [django.server:124] [basehttp:log_message] [WARNING]- " " 400 -
+2019-10-12 13:52:03,842 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 13:52:03,842 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-12 15:25:28,603 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-12 15:25:28,618 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 15:25:28,758 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-12 15:25:28,759 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-12 15:25:28,787 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-12 15:25:28,889 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-12 15:25:28,892 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-12 15:25:28,925 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-12 15:25:42,852 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-12 15:25:42,913 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18317
+2019-10-12 15:25:43,011 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2019-10-12 15:25:43,013 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2019-10-12 15:25:43,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2019-10-12 15:25:43,021 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2019-10-12 15:25:56,912 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 30670
+2019-10-12 15:26:05,493 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 40420
+2019-10-12 16:29:42,651 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 16:29:42,651 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2364
+2019-10-12 17:21:03,789 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-12 17:21:03,828 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-12 17:21:03,873 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-12 17:21:03,992 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-12 17:21:04,027 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-12 17:21:04,029 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-12 17:21:04,033 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-12 17:21:04,057 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-12 19:44:07,015 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 19:44:07,016 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-12 20:40:56,181 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 20:40:56,182 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-13 03:34:38,985 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-13 03:34:38,986 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-13 04:39:47,815 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-13 04:39:47,816 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-13 06:45:10,337 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-13 06:45:10,337 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-13 10:13:43,493 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 10:13:43,493 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-13 12:09:43,649 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 12:09:43,649 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-13 13:45:59,648 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 13:45:59,649 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-13 16:04:05,245 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 16:04:05,246 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-13 16:52:00,834 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 16:52:00,835 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365
+2019-10-13 16:52:15,236 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-13 16:52:15,236 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-13 18:49:39,049 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-13 18:49:39,049 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-13 23:14:22,462 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 302 0
+2019-10-13 23:14:23,154 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-13 23:14:23,686 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2019-10-13 23:14:28,792 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-13 23:14:29,133 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-13 23:14:29,557 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-13 23:14:29,638 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-13 23:14:30,931 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-13 23:15:00,086 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-13 23:15:00,087 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://123.125.114.144/ HTTP/1.1" 404 1678
+2019-10-14 02:55:40,928 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-14 02:55:40,929 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-14 05:08:27,728 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request syntax ('JDWP-Handshake\\0\\0\\0\\11\\0\\0\\0\\1\\0\\1\\1')
+2019-10-14 05:08:27,728 [django.server:124] [basehttp:log_message] [WARNING]- "JDWP-Handshake\0\0\0\11\0\0\0\1\0\1\1" 400 -
+2019-10-14 08:03:06,563 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/112.124.42.80:63435/
+2019-10-14 08:03:06,564 [django.server:124] [basehttp:log_message] [WARNING]- "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1694
+2019-10-14 08:47:23,662 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-14 08:47:23,663 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2369
+2019-10-14 12:23:42,274 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2019-10-14 12:23:42,274 [django.server:124] [basehttp:log_message] [WARNING]- "  /*à     Cookie: mstshash=Administr" 400 -
+2019-10-14 13:00:48,328 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-14 13:00:48,329 [django.server:124] [basehttp:log_message] [WARNING]- "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+2019-10-14 15:58:01,772 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-14 15:58:01,772 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.0" 404 2365

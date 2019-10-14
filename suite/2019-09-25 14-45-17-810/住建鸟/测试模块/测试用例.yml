@@ -1,0 +1,9 @@
+-   config:
+        name: "\u6D4B\u8BD5\u7528\u4F8B"
+        request:
+            base_url: ''
+-   test:
+        name: "\u6D4B\u8BD5\u7528\u4F8B"
+        request:
+            method: POST
+            url: https://www.baidu.com/

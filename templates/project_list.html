@@ -205,7 +205,7 @@
                     <th class="table-title">发布应用</th>
                     <th class="table-title">测试人员</th>
                     <th class="table-title">模块/Suite/用例/配置</th>
-                    <th class="table-date am-hide-sm-only">创建时间</th>
+                    <th class="table-title">创建时间</th>
                     <th width="163px" class="table-set">操作</th>
                 </tr>
                 </thead>
@@ -230,7 +230,7 @@
                             {% endifequal %}
                         {% endfor %}
 
-                        <td class="am-hide-sm-only">{{ foo.create_time }}</td>
+                        <td>{{ foo.create_time }}</td>
                         <td>
                             <div class="am-btn-toolbar">
                                 <div class="am-btn-group am-btn-group-xs">

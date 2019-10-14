@@ -437,3 +437,321 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '����_quant_login_out(����ǳ�)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang�˳�
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang ��¼�ɹ�
+2019-09-24 11:47:37,783 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 11:48:26,818 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 11:50:58,691 [django.request:228] [log:log_response] [WARNING]- Not Found: //api/register/
+2019-09-24 13:26:36,537 [django.request:228] [log:log_response] [WARNING]- Not Found: //api/register/
+2019-09-24 17:42:23,416 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 17:43:55,819 [django.request:228] [log:log_response] [WARNING]- Not Found: //api/register/
+2019-09-24 17:44:39,672 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-09-24 17:44:54,891 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-09-24 17:46:00,452 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '住建鸟', 'responsible_name': '芦永昊', 'test_user': '芦永昊', 'dev_user': '芦永昊', 'publish_app': 'zhujianniao', 'simple_desc': '', 'other_desc': ''}
+2019-09-24 18:09:29,848 [HttpRunnerManager:89] [views:log_out] [INFO]- luyonghao退出
+2019-09-24 18:09:42,523 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-09-24 18:09:44,174 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-09-24 18:40:19,907 [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/project_list/1/
+Traceback (most recent call last):
+  File "/usr/local/python36/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/HttpRunnerManager/HttpRunnerManager-master/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/usr/local/HttpRunnerManager/HttpRunnerManager-master/ApiManager/views.py", line 39, in wrapper
+    return func(request, *args, **kwargs)
+  File "/usr/local/HttpRunnerManager/HttpRunnerManager-master/ApiManager/views.py", line 315, in project_list
+    return render_to_response('project_list.html', manage_info)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/shortcuts.py", line 27, in render_to_response
+    content = loader.render_to_string(template_name, context, using=using)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/python36/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: project_list.html
+2019-09-24 19:01:56,741 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 19:04:29,223 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 20:01:59,334 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-24 21:06:09,776 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-24 21:49:58,683 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 01:59:31,498 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 02:42:43,325 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 05:31:30,884 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 06:06:39,206 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-25 12:47:56,137 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-09-25 12:57:48,722 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-09-25 12:57:53,440 [HttpRunnerManager:60] [views:login] [INFO]- 1584957605@qq.com 登录失败, 请检查用户名或者密码
+2019-09-25 12:57:54,928 [HttpRunnerManager:60] [views:login] [INFO]- 1584957605@qq.com 登录失败, 请检查用户名或者密码
+2019-09-25 12:58:04,881 [HttpRunnerManager:60] [views:login] [INFO]- 1584957605@qq.com 登录失败, 请检查用户名或者密码
+2019-09-25 12:58:09,879 [HttpRunnerManager:55] [views:login] [INFO]- smj 登录成功
+2019-09-25 13:38:10,925 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '测试模块', 'test_user': '芦永昊', 'simple_desc': '这是个测试模块', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-09-25 13:39:23,336 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 测试用例用例添加成功: {'test': {'request': {'url': 'https://www.baidu.com/', 'method': 'POST'}, 'name': '测试用例'}}
+2019-09-25 14:28:25,834 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:34:03,184 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:38:41,028 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:38:44,505 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 14:45:49,365 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-09-25 14:55:25,303 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 15:47:37,979 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 15:47:38,447 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 16:14:02,094 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-25 18:51:16,321 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-25 19:46:22,752 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 02:16:35,798 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-26 08:03:31,734 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 08:20:12,260 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 09:43:04,749 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 10:07:32,988 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 10:20:58,413 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-09-26 10:51:47,616 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-09-26 11:17:39,688 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 11:20:43,343 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 12:10:36,297 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 12:21:53,081 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-26 12:46:02,392 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 18:27:55,366 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.qq.com/404/search_children.js
+2019-09-26 20:36:35,843 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 20:48:30,199 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-26 22:26:51,676 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-27 04:38:50,941 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 06:40:09,197 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 08:28:32,521 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-27 15:14:14,058 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 16:31:17,425 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 17:02:55,461 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 17:43:36,360 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 18:27:31,095 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-27 18:30:59,741 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-27 21:59:35,759 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 00:06:15,504 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.qq.com/404/search_children.js
+2019-09-28 03:46:05,405 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 04:30:54,728 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-28 04:55:59,266 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 06:25:13,691 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 06:27:36,318 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 06:54:37,321 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 07:25:32,275 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 07:44:59,100 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 07:58:25,930 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 12:02:32,607 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-28 14:35:48,440 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-28 19:02:35,537 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 00:30:15,033 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 00:41:49,724 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-29 02:21:44,961 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 08:51:44,397 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 08:56:01,644 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 09:49:15,954 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 10:45:42,376 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-29 14:40:08,733 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-29 20:49:14,343 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-29 23:38:02,837 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.qq.com/404/search_children.js
+2019-09-30 06:40:04,886 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 06:52:13,878 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-30 12:25:51,773 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 13:45:58,240 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 15:18:53,524 [django.request:228] [log:log_response] [WARNING]- Not Found: /www.baidu.com:443
+2019-09-30 15:22:55,095 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-09-30 16:53:06,784 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-09-30 16:54:15,125 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 01:38:15,591 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 02:53:02,406 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-01 04:20:37,995 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 05:54:42,853 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 08:04:43,154 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 10:33:04,168 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 13:01:07,350 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-01 21:28:17,702 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 21:57:36,652 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-01 23:03:22,151 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-01 23:58:13,360 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 03:33:46,174 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 04:43:58,866 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 08:50:01,914 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 09:08:03,934 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-02 14:39:48,812 [django.request:228] [log:log_response] [WARNING]- Not Found: /192.30.255.113
+2019-10-02 14:42:48,234 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-02 18:09:12,696 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 19:11:54,052 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-02 19:51:34,909 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:11:24,120 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:12:42,427 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:15:07,533 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 22:41:34,029 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-02 23:59:23,773 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 01:53:26,782 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 05:15:57,286 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-03 07:28:13,951 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 07:43:42,954 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 09:22:28,150 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 09:22:45,774 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 09:25:12,683 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 10:01:33,697 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 12:21:29,396 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-03 12:29:26,641 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 13:59:44,480 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-03 15:23:37,557 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-03 19:29:12,800 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-03 22:32:00,877 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 01:25:27,754 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-04 01:40:40,800 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 03:46:32,875 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:05:04,729 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:19:23,561 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:23:35,135 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 04:40:31,532 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 06:40:19,418 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 06:51:19,968 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 07:24:08,709 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 10:22:54,891 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 11:16:37,760 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 11:16:38,474 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 11:29:38,367 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-04 11:51:42,375 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 12:19:00,937 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/112.124.42.80:63435/
+2019-10-04 21:31:54,284 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-04 22:04:43,022 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 22:11:39,157 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 22:26:08,237 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-04 22:53:25,668 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-04 22:53:25,673 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 00:29:15,587 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 01:09:01,363 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 02:05:08,568 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 02:52:30,117 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 05:31:06,208 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 05:53:56,183 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 07:30:55,578 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-05 08:06:10,765 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 08:57:05,651 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 09:29:17,206 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-05 17:01:20,625 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-05 17:35:21,568 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-05 19:09:16,540 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 02:24:37,519 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 03:37:02,811 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-06 03:49:11,153 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 06:49:26,635 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 07:32:16,594 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 07:35:06,894 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 08:05:05,674 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 09:43:35,862 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-06 13:46:02,925 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-06 14:09:42,652 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 15:47:52,337 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 17:12:22,543 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 17:12:24,780 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 18:09:07,141 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 21:14:14,446 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-06 22:45:43,202 [django.request:228] [log:log_response] [WARNING]- Not Found: /Pages/login.htm
+2019-10-06 23:53:16,150 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-07 03:52:54,930 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 09:57:29,605 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-07 10:33:59,872 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 10:34:34,658 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-07 11:45:45,682 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:47:18,403 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:48:20,282 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 11:48:25,307 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:22:35,049 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:22:36,386 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:41:41,942 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 17:41:42,967 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-07 19:58:37,389 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-08 04:13:23,554 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 06:01:13,173 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-08 06:22:11,759 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 08:55:23,650 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 12:59:42,813 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 14:56:35,667 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 16:04:32,139 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-08 16:57:36,971 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 17:44:09,606 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-08 19:57:23,494 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-09 02:04:48,064 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 02:13:26,710 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-09 03:11:15,766 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 04:04:22,924 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 04:08:15,739 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 05:16:05,302 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 05:16:06,926 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 05:16:07,382 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 12:17:32,098 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-09 13:33:13,299 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-09 13:43:36,441 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 14:55:45,278 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 16:00:15,765 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 16:20:32,432 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 16:21:28,673 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 18:21:24,335 [django.request:228] [log:log_response] [WARNING]- Not Found: /admin/assets/js/views/login.js
+2019-10-09 19:40:33,840 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 19:52:02,425 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-09 22:17:23,912 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-10 01:11:25,537 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 05:59:50,705 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 08:22:29,627 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-10 13:39:44,254 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 13:39:50,033 [django.request:228] [log:log_response] [WARNING]- Not Found: /nice ports,/Trinity.txt.bak
+2019-10-10 13:39:56,243 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 18:27:50,184 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-10 19:18:37,920 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-10 21:39:27,703 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.123cha.com/
+2019-10-10 21:39:27,715 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/
+2019-10-10 21:39:35,543 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.minghui.org/
+2019-10-10 21:39:35,548 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.epochtimes.com/
+2019-10-10 21:39:35,561 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.boxun.com/
+2019-10-10 21:39:35,564 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.bing.com/
+2019-10-10 21:39:43,036 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.rfa.org/
+2019-10-10 21:39:43,082 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/wujieliulan.com/
+2019-10-10 21:39:43,294 [django.request:228] [log:log_response] [WARNING]- Not Found: /www.voanews.com:443
+2019-10-11 04:30:38,439 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-11 09:02:38,001 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 09:03:35,634 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 11:00:04,066 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 14:34:54,295 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-11 16:26:21,640 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:09:11,455 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:17:33,128 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:17:39,436 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-11 18:19:51,738 [django.request:228] [log:log_response] [WARNING]- Not Found: /register
+2019-10-11 18:19:55,532 [django.request:228] [log:log_response] [WARNING]- Not Found: /register/
+2019-10-11 18:20:48,695 [HttpRunnerManager:60] [views:login] [INFO]- king 登录失败, 请检查用户名或者密码
+2019-10-11 18:21:14,606 [HttpRunnerManager:32] [operation:add_register_data] [DEBUG]- 842072252@qq.com 昵称已被其他用户注册
+2019-10-11 18:21:26,875 [HttpRunnerManager:60] [views:login] [INFO]- 842072252@qq.com 登录失败, 请检查用户名或者密码
+2019-10-11 18:21:33,690 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-10-11 20:48:00,997 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 00:38:16,578 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 00:38:17,512 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 08:49:55,704 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-10-12 08:53:46,343 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'Mega', 'responsible_name': 'Roy', 'test_user': 'Roy', 'dev_user': 'Mark', 'publish_app': 'Mega', 'simple_desc': '', 'other_desc': ''}
+2019-10-12 08:55:01,738 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '公司模块', 'test_user': 'Roy', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (2)>}
+2019-10-12 08:56:14,696 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-12 08:56:22,538 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 简单搜索无参数用例添加成功: {'test': {'request': {'url': 'http://crm-in-api.test.rccchina.com/sub_firms/simple_search', 'method': 'POST'}, 'name': '简单搜索无参数'}}
+2019-10-12 08:57:42,443 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '通用模块-登陆', 'test_user': 'Roy', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (2)>}
+2019-10-12 09:00:25,629 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 登陆用例添加成功: {'test': {'request': {'url': 'http://crm-in-api.dev.rccchina.com/login', 'method': 'POST', 'data': {'username': 'w.deng', 'password': 'it_test123'}}, 'name': '登陆', 'extract': [{}]}}
+2019-10-12 09:56:14,589 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 登陆用例更新成功: {'test': {'request': {'url': '/login', 'method': 'POST', 'data': {'username': 'w.deng', 'password': 'it_test123'}}, 'name': '登陆'}}
+2019-10-12 10:38:13,017 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-12 11:17:52,647 [HttpRunnerManager:60] [views:login] [INFO]- 17729972123 登录失败, 请检查用户名或者密码
+2019-10-12 11:18:47,919 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-10-12 11:18:54,204 [HttpRunnerManager:55] [views:login] [INFO]- 17729972123 登录成功
+2019-10-12 13:48:50,646 [django.request:228] [log:log_response] [WARNING]- Not Found: /api/add_config/ 这是一个拥有图形页面的接口测试项目，我觉得挺适合咱们公司使用的
+2019-10-12 13:48:58,240 [django.request:228] [log:log_response] [WARNING]- Not Found: /api/add_config/ 
+2019-10-12 13:52:03,842 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 15:25:42,844 [HttpRunnerManager:55] [views:login] [INFO]- luyonghao 登录成功
+2019-10-12 16:29:42,651 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 19:44:07,015 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-12 20:40:56,181 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-13 06:45:10,337 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-13 10:13:43,493 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 12:09:43,649 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 13:45:59,648 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 16:04:05,245 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 16:52:00,834 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-13 16:52:15,236 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-13 23:15:00,086 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/123.125.114.144/
+2019-10-14 02:55:40,928 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-14 08:03:06,563 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/112.124.42.80:63435/
+2019-10-14 08:47:23,662 [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-10-14 13:00:48,328 [django.request:228] [log:log_response] [WARNING]- Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+2019-10-14 15:58:01,772 [django.request:228] [log:log_response] [WARNING]- Not Found: /
